@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/deviceName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Device 1"/>
+
+        <TextView
+            android:id="@+id/deviceMACAdress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MAC:134343435"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginRight="15dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/deviceSignalStr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10"/>
+</RelativeLayout>
